@@ -8,7 +8,7 @@ func main(){
 	key := "test"
 	value := []byte("value")
 	lru.Add(key, value)
-  lru.Get(key)
-  lru.Remove(key)
+	lru.Get(key)
+	lru.Remove(key)
 }
 ```
