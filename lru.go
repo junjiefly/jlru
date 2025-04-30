@@ -2,7 +2,7 @@ package jlru
 
 import (
 	"github.com/cespare/xxhash/v2"
-	"lruTest/jlist"
+	"github.com/junjiefly/jlist"
 	"sync"
 	"sync/atomic"
 )
